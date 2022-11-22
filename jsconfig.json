@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/modules/*": ["./src/modules/*"],
+            "@/store/*" : ["./src/store/*"],
+            "@/api/*" : ["./src/pages/api/*"],
+            "@/aws-exports" : ["./src/aws-exports.js"], 
+          }
+    }
+}                                                                                                                                                                                                                                                                                                   

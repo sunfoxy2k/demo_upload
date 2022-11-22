@@ -1,0 +1,15 @@
+{
+  "resourceName": "ImgProfile",
+  "policyUUID": "535c13a4",
+  "bucketName": "demoupload343841abf9504934a6285dcc2d5d83c3",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "groupAccess": {}
+}

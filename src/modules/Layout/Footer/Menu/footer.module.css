@@ -1,0 +1,35 @@
+.container {
+    --footer-background-color: var(--surface-color);
+    --footer-color : var(--on-surface-color);
+
+    --footer-height: ;
+    --footer-padding-inline: var(--spacing-small);
+    --footer-padding-vertical : var(--spacing-small);
+
+
+    background-color: var(--footer-background-color);
+    color: var(--footer-color);
+}
+
+.offset {
+    height: var(--footer-height);
+}
+
+.menu {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: var(--footer-padding-vertical) var(--footer-padding-inline);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+@media only screen and (max-width: 35em) {
+}

@@ -1,0 +1,37 @@
+:root {
+    --gray: hsla(0, 0%, 0%, 0.5);
+
+    --jonquil: hsla(48, 99%, 48%, 1);
+    --curios-blue: hsla(205, 85%, 49%,1);
+    --black: hsla(0, 0%, 0%, 1);
+    --yellow-orange: hsla(36, 99%, 62%, 1);
+    --red: hsla(0, 100%, 50%, 1);
+
+}
+
+:root {
+    --outline-color: ;
+    --backdrop-color: ;
+
+    --background-color: hsla(205, 85%, 49%,0.2);
+    --on-background-color: ;
+
+    --surface-color: white;
+    --surface-color-variant: ;
+    --on-surface: black;
+    --on-surface-accent: ;
+
+    --primary-color: var(--curios-blue);
+    --primary-color-variant: ;
+
+
+    --secondary-color: #93CCD1;
+
+
+    --input-color: ;
+    --input-container-color: ;
+
+    --err-color: ;
+    --on-err-color: ;
+
+}

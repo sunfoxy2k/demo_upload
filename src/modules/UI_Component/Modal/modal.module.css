@@ -1,0 +1,23 @@
+.modal {
+    display: none;
+}
+
+.modal__backdrop {
+    position: fixed;
+}
+
+
+
+.modal__body {
+    position: fixed;
+    inset : 0;
+    background-color: var(--surface-color);
+    color: var(--on-surface-color);
+}
+
+.modal__close {
+    position: absolute;
+    right :1em;
+    top: 1em;
+}
+

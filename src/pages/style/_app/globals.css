@@ -1,0 +1,64 @@
+@import './var/vars.css';
+@import 'text.css';
+@import 'default.css';
+
+
+.d-block {
+  display: block !important;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.d-hidden {
+  visibility: hidden !important;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.flex-grow {
+  flex: 1;
+}
+
+.button {
+  padding: var(--spacing-small) var(--spacing-medium);
+}
+
+.right {
+  float: right !important;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-large);
+  align-items: center;
+}
+
+button.alter {
+    background-color: transparent;
+    border: solid 2px var(--primary-color);
+    color: black;
+}
+
+button.alter:hover {
+    background-color: var(--primary-color);
+    color: white;
+
+}

@@ -1,0 +1,7 @@
+h1 {
+    font-size: var(--headline-large);
+}
+
+a {
+    color: var(--primary-color);
+}

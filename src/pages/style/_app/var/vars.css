@@ -1,0 +1,14 @@
+@import 'color.css';
+@import 'size.css';
+@import 'text.css';
+
+/* z-index */
+:root {
+    --layout-level: 100;
+    --modal-level: 200;    
+}
+
+/* border */
+:root {
+    --thin-border :  1px solid var(--gray); 
+}
