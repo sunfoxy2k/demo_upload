@@ -11,10 +11,9 @@ const {actions, reducer} = createSlice({
     initialState,
     reducers : {
         login : (state, {payload}) => {
-            const {userName, profileImgUrl} = payload
+            const {userName} = payload
             state.isLogin = true  
             state.userName = userName
-            state.profileImgUrl = profileImgUrl
         },
         setProfileImgUrl : (state, {payload}) => {
             state.profileImgUrl = payload

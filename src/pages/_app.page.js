@@ -17,12 +17,10 @@ Amplify.configure(awsconfig);
 
 import RouteController from "./component/global/Route.controller";
 import JWTController from "./component/global/JWT.controller";
-import UserDataController from "./component/global/UserData.controller";
 
 const AppController = () => {
   return (
     <>
-      <UserDataController />
       <RouteController />
       <JWTController />
     </>
