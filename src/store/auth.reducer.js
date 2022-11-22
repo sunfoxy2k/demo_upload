@@ -16,6 +16,9 @@ const {actions, reducer} = createSlice({
             state.userName = userName
             state.profileImgUrl = profileImgUrl
         },
+        setProfileImgUrl : (state, {payload}) => {
+            state.profileImgUrl = payload
+        },
         logout : (state, actions) => {
             return initialState
         }
@@ -40,5 +43,5 @@ const {actions : actionsForJWT , reducer : reducerForJWT} = createSlice({
 export default reducer;
 export {reducerForJWT};
 
-export const {login, logout} = actions
+export const {login, logout, setProfileImgUrl} = actions
 export const {setup, reset} = actionsForJWT
